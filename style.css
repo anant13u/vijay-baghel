@@ -1,0 +1,43 @@
+body {
+    background-color: #1c1e21;
+}
+
+.grandparent {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+}
+
+    .matter-container {
+        border: 2px solid firebrick;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        /* gap: 20px; */
+        /* background-color: #18191a; */
+        background-color: #323335;
+        color: #e4e6eb;
+        width: 700px;
+    }
+
+        .matter-text {
+            border: 2px solid violet;
+            padding: 10px 45px;
+            /* text-align: center; */
+        }
+
+        .images-container {
+            border: 2px solid salmon;
+        }
+
+            img {
+                margin: 0;
+                border: 2px solid purple;
+                width: 300px;
+                height: auto;
+            }
+
+/* border: 2px solid salmon; */
+/* border: 2px solid purple; */
+/* border: 2px solid violet; */
