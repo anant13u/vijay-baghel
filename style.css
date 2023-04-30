@@ -43,21 +43,16 @@ body {
             flex-wrap: wrap;
         }
 
-            #firstImage {
-                display: flex;
-                padding: 0 200px;
-            }
-            
             #downloadBtn {
                 position: absolute;
-                bottom: 0;
+                bottom: 150px;
                 right: 0;
                 padding: 5px;
                 background-color: #000;
                 color: #fff;
                 font-size: 16px;
                 cursor: pointer;
-                opacity: 0;
+                /* opacity: 0; */
                 z-index: 1;
             }
 
@@ -76,7 +71,7 @@ body {
             }
 
             img:focus, img:hover {
-                /* transform: scale(1.4); */
+                transform: scale(1.4);
                 transition: 0.5s;
             }
 
